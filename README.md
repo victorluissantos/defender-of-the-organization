@@ -5,7 +5,7 @@ Game with c and Allegro
 	<tr>
 		</td colspan="2">
 			<center>
-				<b>Used Technologies</b>
+				<b><h2>Used Technologies</h2></b>
 			</center>
 		</td>
 	</tr>
