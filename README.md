@@ -3,7 +3,7 @@ Game with c and Allegro
 <br/>
 <table>
 	<tr>
-		</td></td>
+		</td colspan="2">Used Technologies</td>
 	</tr>
 	<tr>
 		</td>
