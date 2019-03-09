@@ -1,7 +1,7 @@
 /*Jogo Desenvolvido por: Victor Luis dos Santos RA:1090101-9
 Jogo com objetivo de aprovação na materia de programação multiplataforma
-professor: Guilherme*/
-#include <allegro.h>
+*/
+#include <allegro5/allegro5.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -11,7 +11,6 @@ professor: Guilherme*/
 
 int main()
 {
-   
     time_t current_time;
     BITMAP *buffer;
     BITMAP *fundo;
@@ -35,8 +34,7 @@ int main()
     virus = load_bitmap("Img\\virus_R.bmp", pal);
     gblNinja = load_bitmap("Img\\globuloninja.bmp", pal);
     tiro = load_bitmap("Img\\shot.bmp", pal);
-   
-   
+     
     // variaveis do random da bacteria verde,laranja, e viruz
     int rBvX=20, rBvY=0, rBlX=120, rBlY=-0,rVrX=240, rVrY=-550, inNuPassV=0, inNuPassL=0,inNuPassR=0;
     int verificaBacteria_v=0,verificaBacteria_l=0, verificaVirus_r=0;
