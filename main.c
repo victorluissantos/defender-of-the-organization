@@ -28,12 +28,12 @@ int main()
     set_gfx_mode(GFX_AUTODETECT_WINDOWED, max_x, max_y, 0, 0);
     buffer = create_bitmap(max_x, max_y);
     //ALocando espaço em memoria.
-    fundo = load_bitmap("Img\\BG.bmp", pal);
-    bacteria_v = load_bitmap("Img\\bacteria_V.bmp", pal);
-    bacteria_l = load_bitmap("Img\\bacteria_L.bmp", pal);
-    virus = load_bitmap("Img\\virus_R.bmp", pal);
-    gblNinja = load_bitmap("Img\\globuloninja.bmp", pal);
-    tiro = load_bitmap("Img\\shot.bmp", pal);
+    fundo = load_bitmap("img\\BG.bmp", pal);
+    bacteria_v = load_bitmap("img\\bacteria_V.bmp", pal);
+    bacteria_l = load_bitmap("img\\bacteria_L.bmp", pal);
+    virus = load_bitmap("img\\virus_R.bmp", pal);
+    gblNinja = load_bitmap("img\\globuloninja.bmp", pal);
+    tiro = load_bitmap("img\\shot.bmp", pal);
      
     // variaveis do random da bacteria verde,laranja, e viruz
     int rBvX=20, rBvY=0, rBlX=120, rBlY=-0,rVrX=240, rVrY=-550, inNuPassV=0, inNuPassL=0,inNuPassR=0;
